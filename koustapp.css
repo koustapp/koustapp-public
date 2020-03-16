@@ -1,1 +1,30 @@
 /* CSS GLOBAL KOUST */
+
+span[data-number*="-"] { color:red; }
+
+span.recip{ display: table-cell; padding: 0; font-size: 11px; text-align: right; min-width: 32px; }
+span.recip.is-over1k { background-color: #7bdc7b; }
+span.recip.is-null { background-color: #E0E0E0; }
+span.recip-value { opacity: 0.5; }
+span.recip-flex { display: flex; flex-wrap: wrap; justify-content: space-between; }
+span.recip-label { display: block; }
+
+.negative { color:red }
+
+.t-Form-fieldContainer--floatingLabel .t-Form-itemWrapper {
+    align-items: stretch;
+    width:25%;
+}
+
+
+.a-GV-table tr.is-selected .a-GV-cell {
+  background-color: BlanchedAlmond;
+}
+
+.a-GV-table tr.is-selected .a-GV-cell:first-child {
+  background-color: #FFBB44;
+}
+
+.a-GV-table .a-GV-cell.is-focused {
+  box-shadow: none;
+}
